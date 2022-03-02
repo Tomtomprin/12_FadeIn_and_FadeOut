@@ -1,0 +1,45 @@
+.A {
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    background: pink;
+
+    /* 透明に関連する動きは、2秒で */
+    transition: opacity 2s;
+
+    /* 以下、ロード時にピンクのボックスが消えているように、opacity0と記述。（javascriptではスクロールした時に、という指定方法なので） */
+    opacity: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aとbは、分かりやすくするために便宜的に記述した */
+.a {
+    height: 200px;
+    width: 100%;
+    background: lightblue;
+}
+
+.b {
+    height: 200px;
+    width: 100%;
+    background: lightyellow;
+}
